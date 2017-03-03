@@ -4,6 +4,13 @@ import {Router, Route, hashHistory} from 'react-router';
 import App from './components/App';
 import Voting from './components/Voting';
 import Results from './components/Results';
+import {createStore} from 'redux';
+import reducer from './reducer';
+
+
+const store = createStore({
+  
+})
 
 const pair = ['Trainspotting', '28 Days Later'];
 
